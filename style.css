@@ -278,6 +278,9 @@ img {
   text-align: center;
   color: #ffffff8c;
 }
+.hero-item {
+  padding: 12px;
+}
 .hero-item:nth-child(1):hover {
   transform: scale(1.4); /* Увеличиваем масштаб */
 }
@@ -388,6 +391,9 @@ img {
 }
 .popular-icon-heart:hover {
   background-color: #283036;
+  background-image: url(./img/flat-red-icons_like.png);
+}
+.popular-icon-heart:checked {
   background-image: url(./img/flat-red-icons_like.png);
 }
 .popular-icon-folder {
@@ -837,7 +843,7 @@ height: 58px; */
 .line-footer {
   margin-top: 240px;
   height: 0.5px;
-  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgb(255, 255, 255, 0.15);
 }
 .footer-img {
   background-color: #ff6e30;
@@ -912,4 +918,5 @@ height: 58px; */
   color: black;
   width: 1px;
   margin-top: 98px;
+  border-color: transparent;
 }
